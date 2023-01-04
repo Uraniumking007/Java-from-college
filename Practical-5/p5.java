@@ -96,3 +96,16 @@ class p5d   {
 
     }
 }
+
+class p5b_1 {
+    public static void main(String args[]) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number: ");
+        n = sc.nextInt();
+        String str_no = Integer.toString(n);
+        for (int i = 0; i < str_no.length(); i++) {
+            System.out.println(str_no.charAt(i));
+        }
+    }
+}
