@@ -1,7 +1,7 @@
 import java.util.*;
 
 class posorneg {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int a = 10;
         if (a > 0) {
             System.out.println(a + " is Positive");
@@ -15,7 +15,7 @@ class posorneg {
 }
 
 class divby3 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int a = 20;
         if (a % 3 == 0) {
             System.out.println(a + " is Divisible by 3");
@@ -25,8 +25,8 @@ class divby3 {
     }
 }
 
-class leap {
-    public static void main(String args[]) {
+class Leap {
+    public static void main(String[] args) {
         int y = 1992;
         if (y % 4 == 0) {
             System.out.println(y + " is a Leap year");
@@ -36,8 +36,8 @@ class leap {
     }
 }
 
-class oldclac {
-    public static void main(String args[]) {
+class OldClac {
+    public static void main(String[] args) {
         int a, b, c, d;
         Scanner sc = new Scanner(System.in);
         System.out.println("Age of First Person");
