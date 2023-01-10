@@ -36,7 +36,7 @@ class Leap {
     }
 }
 
-class OldClac {
+class OldCalc {
     public static void main(String[] args) {
         int a, b, c, d;
         Scanner sc = new Scanner(System.in);
